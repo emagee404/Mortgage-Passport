@@ -16,6 +16,6 @@ Balance Horizontal
   BalanceLabel BoldText
     text Balance
   Amount BaseText
-    text <amount 363660.18
+    text <amount XXXXXX.XX
   Currency BaseText
     text <currency EUR

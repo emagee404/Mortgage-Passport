@@ -5,6 +5,8 @@ App Vertical
   flexShrink 1
   justifyContent stretch
   Balance
+    amount <
+    currency <
   Vertical
     borderBottomLeftRadius 4
     borderBottomRightRadius 4
@@ -25,6 +27,6 @@ App Vertical
     flexBasis auto
     flexGrow 1
     flexShrink 1
-    from <
+    from <transactions
     overflowY auto
     Transaction

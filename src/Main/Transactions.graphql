@@ -1,0 +1,25 @@
+query getTransactions($accountId: String, $page: String) {
+  list: GetAccountTransactions(
+    AccountId: $accountId
+    page: $page
+  ) {
+    Data {
+      Transaction {
+        CreditDebitIndicator
+        BookingDateTime
+        Amount {
+          Amount
+          Currency
+        }
+      }
+      Transaction {
+        CreditDebitIndicator
+        BookingDateTime
+        Amount {
+          Amount
+          Currency
+        }
+      }
+    }
+  }
+}

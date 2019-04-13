@@ -15,10 +15,10 @@ Transaction Horizontal
   backgroundColor #e4f4fd easeInOut
   BoldText
     text <accountId RHF312389748
+  CreditDebitIndicator BaseText
+    text <creditDebitIndicator Debit
   BookingDateTime BaseText
-    text <creditDebitIndicatorTime Debit
-  BookingDateTime BaseText
-    text <bookingDateTime 2006-10-09T00:00:00.000Z
+    text <bookingDateTime 09/10/2006
   Currency BaseText
     text <currency EUR
   Amount BoldText
