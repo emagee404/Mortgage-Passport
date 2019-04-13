@@ -3,7 +3,7 @@ App Vertical
   flexGrow 1
   flexShrink 1
   height 100%
-  Vertical
+  Login Vertical
   onWhen <isLogin
     alignItems center
     flexBasis auto
@@ -15,7 +15,7 @@ App Vertical
       fontFamily Montserrat
       fontSize 16
       fontWeight 400
-      text To find out your mortgage egibility login to your bank accounts.
+      text Tweka the text
     Text
       color #303030
       fontFamily Montserrat
@@ -28,7 +28,7 @@ App Vertical
       text Choice 2
     Button
       text Choice 3
-  Horizontal
+  Summary Horizontal
   onWhen <isSummary
     flexBasis auto
     flexGrow 1
@@ -56,7 +56,7 @@ App Vertical
         text Some description about the summaries goes here
     Transactions
     onWhen <isSummaryTransactions
-  Vertical
+  Decision Vertical
   onWhen <isDecision
     alignItems center
     flexBasis auto
@@ -78,19 +78,22 @@ App Vertical
         fontFamily Montserrat
         fontSize 10
         fontWeight 600
-        text Motgage Options
+        text Step 1. Motgage Options
         textTransform uppercase
       Option Horizontal
-        flexBasis auto
-        flexGrow 1
-        flexShrink 1
-        Vertical
+        marginTop 20
+        Ulster
+          height 60
+          width 60
+        OptionDescription Vertical
           flexBasis auto
           flexGrow 1
           flexShrink 1
+          marginLeft 8
           BoldText
             text Ulster Bank
           BaseText
+            marginTop 4
             text 2 Year Fixed Mortgage
           BaseText
             text < 2.3% APR

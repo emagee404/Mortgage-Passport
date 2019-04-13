@@ -1,0 +1,14 @@
+Ulster Image
+  alignSelf < auto
+  backgroundColor < transparent
+  borderTopLeftRadius < 0
+  borderTopRightRadius < 0
+  borderBottomLeftRadius < 0
+  borderBottomRightRadius < 0
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  source < ./Ulster.jpg
+  width < 240
+  height < 221

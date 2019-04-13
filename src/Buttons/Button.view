@@ -1,7 +1,11 @@
-Button Horizontal
+Button Vertical
   backgroundColor #ffffff
   onClick <
   when <isSelected
   backgroundColor #00b46b
   Text
     text < Label
+  Aib
+    height 50
+    proxy true
+    width 50
