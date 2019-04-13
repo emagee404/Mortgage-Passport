@@ -1,4 +1,7 @@
 Button Horizontal
+  backgroundColor #ffffff
   onClick <
+  when <isSelected
+  backgroundColor #00b46b
   Text
     text < Label

@@ -22,6 +22,12 @@ App Vertical
       fontSize 16
       fontWeight 400
       text The more information you provide the more accurate your assessment will be.
+    Button
+      text Choice 1
+    Button
+      text Choice 2
+    Button
+      text Choice 3
   Horizontal
   onWhen <isSummary
     flexBasis auto
