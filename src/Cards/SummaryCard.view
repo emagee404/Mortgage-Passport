@@ -1,0 +1,12 @@
+SummaryCard Vertical
+  BoldText
+    text <bank Ulster Bank
+  BaseText
+    text <amountIn €132123.00
+  BaseText
+    text <amountOut €132123.00
+  Button
+    onClick <
+    text See transactions
+    when <isSummaryTransactions
+    text Hide transactions

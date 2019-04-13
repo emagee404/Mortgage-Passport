@@ -1,32 +1,77 @@
 App Vertical
-  alignItems flexStart
   flexBasis auto
   flexGrow 1
   flexShrink 1
-  justifyContent stretch
-  Balance
-    amount <
-    currency <
+  height 100%
   Vertical
-    borderBottomLeftRadius 4
-    borderBottomRightRadius 4
-    borderTopLeftRadius 4
-    borderTopRightRadius 4
-    paddingBottom 4
-    paddingLeft 8
-    paddingRight 8
-    paddingTop 4
-    width 100%
+  onWhen <isLogin
+    alignItems center
+    flexBasis auto
+    flexGrow 1
+    flexShrink 1
+    justifyContent center
     Text
       color #303030
       fontFamily Montserrat
       fontSize 16
       fontWeight 400
-      text Pie chart
-  List
+      text To find out your mortgage egibility login to your bank accounts.
+    Text
+      color #303030
+      fontFamily Montserrat
+      fontSize 16
+      fontWeight 400
+      text The more information you provide the more accurate your assessment will be.
+  Horizontal
+  onWhen <isSummary
     flexBasis auto
     flexGrow 1
     flexShrink 1
-    from <transactions
-    overflowY auto
-    Transaction
+    overflowY hidden
+    overflowX hidden
+    Vertical
+      SummaryCard
+        amountIn €223100.21
+        amountOut €2222.00
+        bank Ulster Bank
+        onClick <toggleSummaryTransactions
+        isSummaryTransactions <
+      SummaryCard
+        amountIn €55535.21
+        amountOut €980.00
+        bank Bank of Ireland
+      SummaryCard
+        amountIn €75535.21
+        amountOut €8200.00
+        bank AIB
+    Vertical
+    onWhen <!isSummaryTransactions
+      TitleText
+        text Some description about the summaries goes here
+    Transactions
+    onWhen <isSummaryTransactions
+  Vertical
+  onWhen <isDecision
+    flexBasis auto
+    flexGrow 1
+    flexShrink 1
+    TitleText
+      text Decision
+  BottomBar Horizontal
+    backgroundColor #ff4a00
+    height 100
+    width 100%
+    LOGO Horizontal
+      backgroundColor #090600
+      height 100
+      width 100
+    Button
+    onWhen <isLogin
+      id summary
+      onClick <goTo
+      text Go to summary
+    Button
+    onWhen <isSummary
+      id decision
+      onClick <goTo
+      text See decision

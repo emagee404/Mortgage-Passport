@@ -34,7 +34,7 @@ query getTransactions($accountId: String!, $page: String!) {
     `}
     variables={{
       accountId: props.accountId,
-      page: "0"
+      page: props.page || "0"
     }}
   >
     {res =>

@@ -2,6 +2,8 @@ Transactions Vertical
   flexBasis auto
   flexGrow 1
   flexShrink 1
+  TitleText
+    text Transactions
   List
     flexBasis auto
     flexGrow 1

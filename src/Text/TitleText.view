@@ -1,0 +1,8 @@
+TitleText Text
+  color #303030
+  fontFamily Montserrat
+  fontSize 24
+  fontWeight 400
+  paddingLeft 16
+  paddingRight 16
+  text < Title Text
