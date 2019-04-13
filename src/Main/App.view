@@ -33,15 +33,15 @@ App Vertical
     flexBasis auto
     flexGrow 1
     flexShrink 1
-    overflowY hidden
     overflowX hidden
+    overflowY hidden
     Vertical
       SummaryCard
         amountIn €223100.21
         amountOut €2222.00
         bank Ulster Bank
-        onClick <toggleSummaryTransactions
         isSummaryTransactions <
+        onClick <toggleSummaryTransactions
       SummaryCard
         amountIn €55535.21
         amountOut €980.00
@@ -58,11 +58,42 @@ App Vertical
     onWhen <isSummaryTransactions
   Vertical
   onWhen <isDecision
+    alignItems center
     flexBasis auto
     flexGrow 1
     flexShrink 1
     TitleText
+      marginTop 50
       text Decision
+    BaseText
+      marginTop 10
+    Plan Vertical
+      flexBasis auto
+      flexGrow 1
+      flexShrink 1
+      marginTop 30
+      width 700
+      Text
+        color #303030
+        fontFamily Montserrat
+        fontSize 10
+        fontWeight 600
+        text Motgage Options
+        textTransform uppercase
+      Option Horizontal
+        flexBasis auto
+        flexGrow 1
+        flexShrink 1
+        Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          BoldText
+            text Ulster Bank
+          BaseText
+            text 2 Year Fixed Mortgage
+          BaseText
+            text < 2.3% APR
   BottomBar Horizontal
     backgroundColor #ff4a00
     height 100

@@ -3,6 +3,4 @@ BoldText Text
   fontFamily Montserrat
   fontSize 14
   fontWeight 600
-  paddingLeft 16
-  paddingRight 16
-  text < Base Text
+  text < Bold text

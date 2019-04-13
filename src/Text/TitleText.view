@@ -3,6 +3,5 @@ TitleText Text
   fontFamily Montserrat
   fontSize 24
   fontWeight 400
-  paddingLeft 16
-  paddingRight 16
-  text < Title Text
+  marginTop < 0
+  text < Hoorraay

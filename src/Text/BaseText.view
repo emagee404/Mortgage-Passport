@@ -3,6 +3,5 @@ BaseText Text
   fontFamily Montserrat
   fontSize 14
   fontWeight 400
-  paddingLeft 16
-  paddingRight 16
-  text < Base Text
+  marginTop < 0
+  text < Base text
