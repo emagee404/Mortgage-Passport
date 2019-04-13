@@ -15,7 +15,7 @@ App Vertical
       fontFamily Montserrat
       fontSize 16
       fontWeight 400
-      text To find out your mortgage egibility login to your bank accounts.
+      text Tweka the text
     Text
       color #303030
       fontFamily Montserrat
@@ -33,15 +33,15 @@ App Vertical
     flexBasis auto
     flexGrow 1
     flexShrink 1
-    overflowY hidden
     overflowX hidden
+    overflowY hidden
     Vertical
       SummaryCard
         amountIn €223100.21
         amountOut €2222.00
         bank Ulster Bank
-        onClick <toggleSummaryTransactions
         isSummaryTransactions <
+        onClick <toggleSummaryTransactions
       SummaryCard
         amountIn €55535.21
         amountOut €980.00
