@@ -22,4 +22,4 @@ Transaction Horizontal
   Currency BaseText
     text <currency EUR
   Amount BoldText
-    text <amount 6.50
+    text <amount 6.5

@@ -31,6 +31,10 @@
     "PrimaryActionButton": {
       "width": 250,
       "height": 50
+    },
+    "Transaction": {
+      "width": 250,
+      "height": 250
     }
   }
 }

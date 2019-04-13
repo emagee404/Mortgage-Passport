@@ -1,4 +1,4 @@
-PrimaryActionButton Vertical
+PrimaryActionButton Horizontal
   alignItems center
   alignSelf < auto
   backgroundColor #00ba0c
@@ -23,8 +23,14 @@ PrimaryActionButton Vertical
   when <isHovered
   backgroundColor #00c70d easeInOut
   Text
+    color #303030
+    fontFamily Montserrat
+    fontSize 16
+    fontWeight 400
+    text This is some text
+  Text
     color #ffffff
     fontFamily Montserrat
     fontSize 12
     fontWeight 400
-    text < Primary Action Label
+    text < Somethign else

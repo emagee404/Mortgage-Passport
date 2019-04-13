@@ -1,0 +1,22 @@
+ActionTypeVertical Svg
+  alignSelf < auto
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  opacity < 1
+  viewBox 0 0 64 64
+  width < 64
+  height < 64
+  SvgPath
+    fill < none
+    stroke < #4D4D4D
+    strokeWidth 3
+    strokeMiterlimit 10
+    d M-86.7 48.7V15.3M-80.7 48.7h-12M-80.7 15.3h-12M-80.7 32h-12M102.7 17.6c5 2.9 8.3 8.3 8.3 14.4v11.8M-20.9 24.9v-7.1h-7.2M-21.7 46.2c-7.8-7.8-7.8-20.5 0-28.3M15.3 32h33.4M15.3 38V26M48.7 38V26M32 38V26M-59.1 13.5l6.2-6.2-6.2-6.1
+  SvgPath
+    fill < none
+    stroke < #4D4D4D
+    strokeWidth 3
+    strokeMiterlimit 10
+    d M-56 56.7c-13.6 0-24.7-11-24.7-24.7S-69.6 7.3-56 7.3h3.1M3.9 55.3V8.7c0-2.7 2.2-4.8 4.8-4.8h46.5c2.7 0 4.8 2.2 4.8 4.8v46.5c0 2.7-2.2 4.8-4.8 4.8H8.7c-2.6.1-4.8-2.1-4.8-4.7z
