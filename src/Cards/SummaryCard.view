@@ -31,8 +31,9 @@ SummaryCard Vertical
         width 60
       BaseText
         text <amountOut €132123.00
-  Button
-    onClick <
-    text Review Transactions
-    when <isSummaryTransactions
-    text Hide transactions
+    Button
+      marginLeft 10
+      onClick <
+      text Show
+      when <isSummaryTransactions
+      text Hide transactions

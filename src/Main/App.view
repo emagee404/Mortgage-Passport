@@ -59,12 +59,67 @@ App Vertical
         amountIn €75535.21
         amountOut €8200.00
         bank AIB
-      Vertical
+      Loandetails Vertical
         paddingBottom 4
         paddingLeft 20
         paddingRight 20
         paddingTop 4
         BoldText
+        Text
+          color #303030
+          fontFamily Montserrat
+          fontSize 12
+          fontWeight 400
+          marginBottom 8
+          marginTop 10
+          text Purpose of Mortgage
+        Purpose Horizontal
+          flexWrap wrap
+          IconTextButton
+            text First Time Buyer
+          Button
+            marginLeft 8
+            text Switcher
+          Button
+            marginLeft 8
+            text Buy to Let
+          Button
+            marginTop 8
+            text Moving Home
+        Text
+          color #303030
+          fontFamily Montserrat
+          fontSize 12
+          fontWeight 400
+          marginBottom 8
+          marginTop 20
+          text Rate Type
+        Horizontal
+          IconTextButton
+            text Fixed
+          Button
+            marginLeft 8
+            text Variable
+        Text
+          color #303030
+          fontFamily Montserrat
+          fontSize 12
+          fontWeight 400
+          marginBottom 8
+          marginTop 20
+          text Term
+        Horizontal
+          Button
+            text >10
+          IconTextButton
+            marginLeft 8
+            text 10-20
+          Button
+            marginLeft 8
+            text 20-30
+          Button
+            marginLeft 8
+            text 30+
     Vertical
     onWhen <!isSummaryTransactions
       TitleText
