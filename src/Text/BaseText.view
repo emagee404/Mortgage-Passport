@@ -1,5 +1,5 @@
 BaseText Text
-  color #303030
+  color < #303030
   fontFamily Montserrat
   fontSize 14
   fontWeight 400

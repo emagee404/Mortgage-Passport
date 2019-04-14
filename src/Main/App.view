@@ -10,26 +10,31 @@ App Vertical
     flexGrow 1
     flexShrink 1
     justifyContent center
-    Text
+    TitleText
+      color #303030
+      fontFamily Montserrat
+      fontSize 20
+      fontWeight 400
+      text Authorise access to transactions data
+    TitleText
       color #303030
       fontFamily Montserrat
       fontSize 16
       fontWeight 400
-      text Tweka the text
-    Text
-      color #303030
-      fontFamily Montserrat
-      fontSize 16
-      fontWeight 400
+      marginTop 8
       text The more information you provide the more accurate your assessment will be.
-    Button
-      text Choice 1
-      Aib Ulster
-    Button
-      text Choice 2
-      Aib Kbc
-    Button
-      text Choice 3
+    Rowlogin Horizontal
+      justifyContent spaceBetween
+      marginTop 100
+      width 600
+      ButtonLogin
+        text Ulster Bank
+        Aib Ulster
+      ButtonLogin
+        text Choice 3
+      ButtonLogin
+        text Choice 2
+        Aib Kbc
   Summary Horizontal
   onWhen <isSummary
     flexBasis auto
@@ -47,7 +52,7 @@ App Vertical
       SummaryCard
         amountIn €55535.21
         amountOut €980.00
-        bank Bank of Ireland
+        bank KBC
       SummaryCard
         amountIn €75535.21
         amountOut €8200.00
@@ -116,7 +121,7 @@ App Vertical
     onWhen <isLogin
       id summary
       onClick <goTo
-      text Go to summary
+      text Check My Eligibility
     PrimaryActionButton
     onWhen <isSummary
       id decision

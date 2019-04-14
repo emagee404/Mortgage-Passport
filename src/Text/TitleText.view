@@ -1,7 +1,7 @@
 TitleText Text
   color #303030
   fontFamily Montserrat
-  fontSize 24
+  fontSize < 24
   fontWeight 400
   marginTop < 0
-  text < Hoorraay
+  text < Tweka the text
