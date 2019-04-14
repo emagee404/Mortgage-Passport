@@ -120,10 +120,77 @@ App Vertical
           Button
             marginLeft 8
             text 30+
-    Vertical
+    Offers Vertical
     onWhen <!isSummaryTransactions
+      flexBasis auto
+      flexGrow 1
+      flexShrink 1
+      paddingBottom 20
+      paddingLeft 20
+      paddingRight 20
+      paddingTop 20
       TitleText
-        text Some description about the summaries goes here
+        text Mortgage Options
+      Option Horizontal
+        alignItems center
+        marginTop 20
+        Ulster
+          height 60
+          marginRight 8
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          marginLeft 8
+          BoldText
+            text < Ulster Bank
+          BaseText
+            marginTop 4
+            text 2 Year Fixed Mortgage
+          BaseText
+            text < 2.3% APR
+        Button
+      Option Horizontal
+        alignItems center
+        marginTop 20
+        Kbc
+          height 60
+          marginRight 8
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          marginLeft 8
+          BoldText
+            text < KBC
+          BaseText
+            marginTop 4
+            text 2 Year Fixed Mortgage
+          BaseText
+            text < 2.5% APR
+        Button
+      Option Horizontal
+        alignItems center
+        marginTop 20
+        Aib
+          height 60
+          marginRight 8
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          marginLeft 8
+          BoldText
+            text < AIB
+          BaseText
+            marginTop 4
+            text 3, 4, 5 Year Fixed Mortgage
+          BaseText
+            text < 2.85% APR
+        Button
     Transactions
     onWhen <isSummaryTransactions
   Decision Vertical
