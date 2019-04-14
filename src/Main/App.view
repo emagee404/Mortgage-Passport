@@ -132,11 +132,14 @@ App Vertical
     flexBasis auto
     flexGrow 1
     flexShrink 1
+    overflowY auto
+    paddingBottom 100
     TitleText
       marginTop 50
-      text Decision
+      text Horray! You've got your approval
     BaseText
       marginTop 10
+      text Select the deal for you
     Plan Vertical
       flexBasis auto
       flexGrow 1
@@ -148,12 +151,14 @@ App Vertical
         fontFamily Montserrat
         fontSize 10
         fontWeight 600
-        text Step 1. Motgage Options
+        text Step 1. Select Motgage Option
         textTransform uppercase
       Option Horizontal
+        alignItems center
         marginTop 20
         Ulster
           height 60
+          marginRight 8
           width 60
         OptionDescription Vertical
           flexBasis auto
@@ -161,12 +166,115 @@ App Vertical
           flexShrink 1
           marginLeft 8
           BoldText
-            text Ulster Bank
+            text < Ulster Bank
           BaseText
             marginTop 4
             text 2 Year Fixed Mortgage
           BaseText
             text < 2.3% APR
+        Button
+      Option Horizontal
+        alignItems center
+        marginTop 20
+        Kbc
+          height 60
+          marginRight 8
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          marginLeft 8
+          BoldText
+            text < KBC
+          BaseText
+            marginTop 4
+            text 2 Year Fixed Mortgage
+          BaseText
+            text < 2.5% APR
+        Button
+      Option Horizontal
+        alignItems center
+        marginTop 20
+        Aib
+          height 60
+          marginRight 8
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          marginLeft 8
+          BoldText
+            text < AIB
+          BaseText
+            marginTop 4
+            text 3, 4, 5 Year Fixed Mortgage
+          BaseText
+            text < 2.85% APR
+        Button
+      Text
+        color #303030
+        fontFamily Montserrat
+        fontSize 10
+        fontWeight 600
+        marginTop 30
+        text Step 2. Select local services to help you with your mortgage
+        textTransform uppercase
+      Service Horizontal
+        alignItems center
+        marginTop 20
+        Dng
+          height 60
+          marginRight 16
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          BoldText
+            marginBottom 8
+            text < DNG Estate Agents
+          BaseText
+            marginTop 4
+            text 100 High Street, Dublin
+        Button
+      Service Horizontal
+        alignItems center
+        marginTop 20
+        Sherry
+          height 60
+          marginRight 16
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          BoldText
+            marginBottom 8
+            text < Sherry Fitz Estate Agents
+          BaseText
+            marginTop 4
+            text 25 Main Street, Dublin
+        Button
+      Service Horizontal
+        alignItems center
+        marginTop 20
+        Setfords
+          height 60
+          marginRight 16
+          width 60
+        OptionDescription Vertical
+          flexBasis auto
+          flexGrow 1
+          flexShrink 1
+          BoldText
+            marginBottom 8
+            text < Magee & Sons Solicitors
+          BaseText
+            marginTop 4
+            text 11 Rose Lane
+        Button
   BottomBar Horizontal
     alignItems center
     backgroundColor #ffffff

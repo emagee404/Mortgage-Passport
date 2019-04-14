@@ -3,5 +3,4 @@ BoldText Text
   fontFamily Montserrat
   fontSize 14
   fontWeight 600
-  marginBottom 8
   text < Loan Details

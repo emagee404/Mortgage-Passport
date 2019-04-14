@@ -36,4 +36,4 @@ SummaryCard Vertical
       onClick <
       text Show
       when <isSummaryTransactions
-      text Hide transactions
+      text Hide
