@@ -4,7 +4,7 @@ Button Vertical
   when <isSelected
   backgroundColor #00b46b
   Text
-    text < Label
+    text < Go to summary
   Aib
     height 50
     proxy true

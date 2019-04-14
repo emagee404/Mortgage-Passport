@@ -24,8 +24,10 @@ App Vertical
       text The more information you provide the more accurate your assessment will be.
     Button
       text Choice 1
+      Aib Ulster
     Button
       text Choice 2
+      Aib Kbc
     Button
       text Choice 3
   Summary Horizontal
@@ -98,20 +100,34 @@ App Vertical
           BaseText
             text < 2.3% APR
   BottomBar Horizontal
-    backgroundColor #ff4a00
+    alignItems center
+    backgroundColor #ffffff
     height 100
+    justifyContent spaceBetween
+    shadowBlur 20
+    shadowColor rgba(100,150,180,0.2)
+    shadowOffsetX 0
+    shadowOffsetY -4
+    shadowSpread 0
     width 100%
-    LOGO Horizontal
-      backgroundColor #090600
-      height 100
+    Horizontal
       width 100
-    Button
+    PrimaryActionButton
     onWhen <isLogin
       id summary
       onClick <goTo
       text Go to summary
-    Button
+    PrimaryActionButton
     onWhen <isSummary
       id decision
       onClick <goTo
       text See decision
+    LOGO Horizontal
+      alignItems center
+      backgroundColor #0051ff
+      height 100
+      justifyContent center
+      width 110
+      Mortgageconnectlogov1color01
+        height 50
+        width 100
