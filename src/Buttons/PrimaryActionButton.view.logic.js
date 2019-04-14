@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Button from "./Button.view.js";
+import PrimaryActionButton from "./PrimaryActionButton.view.js";
 
-let ButtonLogic = props => {
+let PrimaryActionButtonLogic = props => {
   let [isSelected, setIsSelected] = useState(false);
 
   return (
-    <Button
+    <PrimaryActionButton
       {...props}
       isSelected={isSelected}
       onClick={() => {
@@ -19,4 +19,4 @@ let ButtonLogic = props => {
   );
 };
 
-export default ButtonLogic;
+export default PrimaryActionButtonLogic;
